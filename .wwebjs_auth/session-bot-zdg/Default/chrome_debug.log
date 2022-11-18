@@ -1,43 +1,4 @@
-[1116/204056.017:ERROR:dxva_video_decode_accelerator_win.cc(1426)] DXVAVDA fatal error: Could not load mf.dll: Não foi possível encontrar o módulo especificado. (0x7E)
-[1116/204056.925:INFO:CONSOLE(7)] "Another connection wants to delete database 'wawc'. Closing db now to resume the delete request.", source: https://web.whatsapp.com/vendor1~bootstrap_qr.ef018a7bfbd9257ea51d.js (7)
-[1116/204057.467:INFO:CONSOLE(1)] "Uncaught (in promise) TypeError: Failed to execute 'put' on 'Cache': Partial response (status code 206) is unsupported", source: https://web.whatsapp.com/serviceworker.js (1)
-[1116/204103.076:INFO:CONSOLE(1)] "Uncaught (in promise) TypeError: Failed to execute 'put' on 'Cache': Partial response (status code 206) is unsupported", source: https://web.whatsapp.com/serviceworker.js (1)
-[1116/204103.081:INFO:CONSOLE(1)] "Uncaught (in promise) TypeError: Failed to execute 'put' on 'Cache': Partial response (status code 206) is unsupported", source: https://web.whatsapp.com/serviceworker.js (1)
-[1116/205323.241:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
-[1116/205651.197:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
-[1116/220444.088:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
-[1116/233110.566:INFO:CONSOLE(0)] "The FetchEvent for "https://web.whatsapp.com/img/favicon-error2_fb2afa4bfd23495c7bd2555bb080bb35.png" resulted in a network error response: the promise was rejected.", source:  (0)
-[1116/233110.571:INFO:CONSOLE(1)] "Uncaught (in promise) TypeError: Failed to fetch", source: https://web.whatsapp.com/serviceworker.js (1)
-[1116/233111.314:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
-[1116/233111.663:INFO:CONSOLE(0)] "The FetchEvent for "https://web.whatsapp.com/img/favicon-error2_fb2afa4bfd23495c7bd2555bb080bb35.png" resulted in a network error response: the promise was rejected.", source:  (0)
-[1116/233111.663:INFO:CONSOLE(1)] "Uncaught (in promise) TypeError: Failed to fetch", source: https://web.whatsapp.com/serviceworker.js (1)
-[1117/114515.774:INFO:CONSOLE(0)] "The FetchEvent for "https://web.whatsapp.com/img/favicon-error2_fb2afa4bfd23495c7bd2555bb080bb35.png" resulted in a network error response: the promise was rejected.", source:  (0)
-[1117/114515.800:INFO:CONSOLE(1)] "Uncaught (in promise) TypeError: Failed to fetch", source: https://web.whatsapp.com/serviceworker.js (1)
-[1117/114516.224:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
-[1117/115617.559:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
-[1117/115617.584:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
-[1117/115650.657:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
-[1117/115650.669:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
-[1117/115650.696:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
-[1117/115815.927:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
-[1117/115815.954:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
-[1117/115948.342:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
-[1117/120354.599:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
-[1117/120354.632:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
-[1117/120516.128:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
-[1117/120755.073:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
-[1117/121103.577:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
-[1117/121338.364:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
-[1117/122736.838:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
-[1117/122944.825:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
-[1117/125124.161:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
-[1117/125814.010:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
-[1117/130519.026:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
-[1117/130519.041:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
-[1117/130555.476:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
-[1117/131612.113:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
-[1117/132553.195:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
-[1117/132935.178:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
-[1117/153620.743:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
-[1117/154811.478:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
-[1117/164722.526:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[1118/034916.520:ERROR:dxva_video_decode_accelerator_win.cc(1426)] DXVAVDA fatal error: Could not load mf.dll: Não foi possível encontrar o módulo especificado. (0x7E)
+[1118/034930.183:INFO:CONSOLE(1)] "Uncaught (in promise) TypeError: Failed to execute 'put' on 'Cache': Partial response (status code 206) is unsupported", source: https://web.whatsapp.com/serviceworker.js (1)
+[1118/034930.526:INFO:CONSOLE(1)] "Uncaught (in promise) TypeError: Failed to execute 'put' on 'Cache': Partial response (status code 206) is unsupported", source: https://web.whatsapp.com/serviceworker.js (1)
+[1118/034930.526:INFO:CONSOLE(1)] "Uncaught (in promise) TypeError: Failed to execute 'put' on 'Cache': Partial response (status code 206) is unsupported", source: https://web.whatsapp.com/serviceworker.js (1)

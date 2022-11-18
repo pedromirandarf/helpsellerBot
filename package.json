@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "bot-zdg: based on Whatsapp API",
   "main": "app.js",
-  "type":"module",
   "engines": {
     "node": "14.x"
   },
