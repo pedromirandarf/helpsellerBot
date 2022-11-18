@@ -1,0 +1,15 @@
+{
+    "version":2,
+    "builds":[
+        {
+            "src": "./botzdg.js",
+            "use": "@vercel/node"
+        }
+    ],
+    "routes":[
+        {
+            "src":"/(.*)",
+            "dest":"/botzdg.js"
+        }
+    ]
+}
