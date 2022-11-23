@@ -315,10 +315,10 @@ client.on('message', async msg => {
     //msgSender.pushname
     let feedback = "Ótimo *" +msgSender.pushname +"*, gostaríamos de entender melhor o que houver, deixe sua mensagem e entraremos em contato em até 24hrs.";
     previousMessage = "start-sim-5";
-    client.sendMessage(msg.from, feedback);
     const contact = await msg.getContact();//https://api.whatsapp.com/send/?phone=5533988256522&text=
-    client.sendMessage('553135688303@c.us', 'Contato WhatsApp Bot. https://wa.me/' + `${contact.number}` + '?text=O cliente: *'+`${msgSender.pushname}`+'*, entrou em contato contigo e selecionou a opção de ouvidoria.');
-    client.sendMessage('5533988256522@c.us', 'Contato WhatsApp Bot. https://wa.me/' + `${contact.number}`+  '?text=O cliente: *'+`${msgSender.pushname}`+'*, entrou em contato contigo e selecionou a opção de ouvidoria.');
+    await client.sendMessage('553135688303@c.us', 'O *'+ `${msgSender.pushname}` +'* entrou em contato com o HelpABit. Entre em contato pelo link: https://wa.me/' + `${contact.number}`);
+    await client.sendMessage('553190697390@c.us',  'O *'+ `${msgSender.pushname}` +'* entrou em contato com o HelpABit. Entre em contato pelo link: https://wa.me/' + `${contact.number}`);
+    await client.sendMessage(msg.from, feedback);
     //let feedback = "O processo de implantação do seu ecommerce começa com uma apresentação da sua empresa, quais produtos gostaria de começar a vender.. \r\n Em seguida analizamos os requisitos e montamos uma carta proposta para você, caso seja aprovada, ja damos início na construção do seu website. Quaisquer outras dúvidas entre em contato: "
     //client.sendMessage(msg.from, feedback);
     
