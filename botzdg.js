@@ -261,7 +261,7 @@ client.on('message', async msg => {
   // } 
   
   else if(msgReceived === 'Sim'){
-    let sections = [{title:'Ótimo! Vamos prosseguir!',rows:[{title:'1 - Gerente de Conta'},{title:'2 - Criativo'},{title:'3 - Desenvolvimento'},{title:'4 - Financeiro'},{title:'5 - Ouvidoria'},{title:'6 - Falar com Atendente'}]}];
+    let sections = [{title:'Ótimo! Vamos prosseguir!',rows:[{title:'1 - Gerente de Contas'},{title:'2 - Criativo'},{title:'3 - Desenvolvimento'},{title:'4 - Financeiro'},{title:'5 - Ouvidoria'},{title:'6 - Falar com Atendente'}]}];
     let list = new List('Selecione a opção desejada:','Opções',sections,'Ótimo! Vamos prosseguir!','Roda-pé da Lista');
     //let button2 = new Buttons('*Selecione a opção desejada:*  \r\n ',[{body:'1 - Gerente de Conta'},{body:'2 - Criativo'},{body:'3 - Desenvolvimento'},{body:'4 - Financeiro'},{body:'5 - Ouvidoria'}],'Ótimo! Vamos prosseguir!', 'Por favor use os botões para nevegar conosco!');
     client.sendMessage(msg.from, list);
