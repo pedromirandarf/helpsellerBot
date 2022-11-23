@@ -1,30 +1,6 @@
-2022/11/18-03:49:19.611 4628 Reusing MANIFEST C:\Users\pedro\OneDrive\Área de Trabalho\HellpSeller\Bot\helpsellerBot\.wwebjs_auth\session-bot-zdg\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/11/18-03:49:19.616 4628 Recovering log #9
-2022/11/18-03:49:19.848 4628 Reusing old log C:\Users\pedro\OneDrive\Área de Trabalho\HellpSeller\Bot\helpsellerBot\.wwebjs_auth\session-bot-zdg\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000009.log 
-2022/11/18-03:49:19.954 4628 Level-0 table #14: started
-2022/11/18-03:49:19.979 4628 Level-0 table #14: 1590611 bytes OK
-2022/11/18-03:49:19.980 4628 Delete type=0 #9
-2022/11/18-03:49:20.068 31e8 Level-0 table #16: started
-2022/11/18-03:49:20.086 31e8 Level-0 table #16: 1309429 bytes OK
-2022/11/18-03:49:20.088 31e8 Delete type=0 #13
-2022/11/18-03:49:20.582 4dcc Compacting 1@0 + 1@1 files
-2022/11/18-03:49:20.692 4dcc Generated table #17@0: 57738 keys, 1933031 bytes
-2022/11/18-03:49:20.692 4dcc Compacted 1@0 + 1@1 files => 1933031 bytes
-2022/11/18-03:49:20.692 4dcc compacted to: files[ 0 1 1 0 0 0 0 ]
-2022/11/18-03:49:20.692 4dcc Delete type=2 #14
-2022/11/18-03:49:20.692 4dcc Delete type=2 #16
-2022/11/18-03:49:30.568 2f50 Compacting 1@1 + 1@2 files
-2022/11/18-03:49:30.650 2f50 Generated table #18@1: 41525 keys, 1918246 bytes
-2022/11/18-03:49:30.650 2f50 Compacted 1@1 + 1@2 files => 1918246 bytes
-2022/11/18-03:49:30.650 2f50 compacted to: files[ 0 0 1 0 0 0 0 ]
-2022/11/18-03:49:30.651 2f50 Delete type=2 #11
-2022/11/18-03:49:30.651 2f50 Delete type=2 #17
-2022/11/18-03:49:34.965 520c Level-0 table #20: started
-2022/11/18-03:49:34.986 520c Level-0 table #20: 1018634 bytes OK
-2022/11/18-03:49:34.987 520c Delete type=0 #15
-2022/11/18-03:49:35.377 520c Compacting 1@1 + 1@2 files
-2022/11/18-03:49:35.446 520c Generated table #21@1: 25958 keys, 1077667 bytes
-2022/11/18-03:49:35.446 520c Compacted 1@1 + 1@2 files => 1077667 bytes
-2022/11/18-03:49:35.447 520c compacted to: files[ 0 0 1 0 0 0 0 ]
-2022/11/18-03:49:35.447 520c Delete type=2 #18
-2022/11/18-03:49:35.447 520c Delete type=2 #20
+2022/11/22-22:36:53.095 866c Reusing MANIFEST C:\Users\pedro\OneDrive\Área de Trabalho\HellpSeller\Bot\helpsellerBot\.wwebjs_auth\session-bot-zdg\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/11/22-22:36:53.095 866c Recovering log #86
+2022/11/22-22:36:53.128 866c Reusing old log C:\Users\pedro\OneDrive\Área de Trabalho\HellpSeller\Bot\helpsellerBot\.wwebjs_auth\session-bot-zdg\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000086.log 
+2022/11/22-22:36:53.128 866c Delete type=2 #83
+2022/11/22-22:36:53.128 866c Delete type=2 #84
+2022/11/22-22:36:53.128 866c Delete type=2 #87

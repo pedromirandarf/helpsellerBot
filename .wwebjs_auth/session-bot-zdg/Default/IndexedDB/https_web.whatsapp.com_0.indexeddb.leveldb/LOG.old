@@ -1,24 +1,12 @@
-2022/11/16-20:40:56.756 71cc Creating DB C:\Users\pedro\OneDrive\Área de Trabalho\HellpSeller\Bot\bot-zdg-main\.wwebjs_auth\session-bot-zdg\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb since it was missing.
-2022/11/16-20:40:56.759 71cc Reusing MANIFEST C:\Users\pedro\OneDrive\Área de Trabalho\HellpSeller\Bot\bot-zdg-main\.wwebjs_auth\session-bot-zdg\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/11/16-20:40:56.935 5f7c Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
-2022/11/16-20:41:14.308 5dd0 Level-0 table #5: started
-2022/11/16-20:41:14.339 5dd0 Level-0 table #5: 1201114 bytes OK
-2022/11/16-20:41:14.341 5dd0 Delete type=0 #3
-2022/11/16-20:41:26.350 70c4 Level-0 table #7: started
-2022/11/16-20:41:26.375 70c4 Level-0 table #7: 1103244 bytes OK
-2022/11/16-20:41:26.377 70c4 Delete type=0 #4
-2022/11/16-20:41:27.089 5dd0 Compacting 1@1 + 1@2 files
-2022/11/16-20:41:27.161 5dd0 Generated table #8@1: 24339 keys, 1079105 bytes
-2022/11/16-20:41:27.161 5dd0 Compacted 1@1 + 1@2 files => 1079105 bytes
-2022/11/16-20:41:27.162 5dd0 compacted to: files[ 0 0 1 0 0 0 0 ]
-2022/11/16-20:41:27.162 5dd0 Delete type=2 #5
-2022/11/16-20:41:27.162 5dd0 Delete type=2 #7
-2022/11/17-11:58:17.237 8c44 Level-0 table #10: started
-2022/11/17-11:58:17.271 8c44 Level-0 table #10: 1193269 bytes OK
-2022/11/17-11:58:17.274 8c44 Delete type=0 #6
-2022/11/17-11:58:18.923 603c Compacting 1@1 + 1@2 files
-2022/11/17-11:58:19.002 603c Generated table #11@1: 33900 keys, 1480047 bytes
-2022/11/17-11:58:19.002 603c Compacted 1@1 + 1@2 files => 1480047 bytes
-2022/11/17-11:58:19.003 603c compacted to: files[ 0 0 1 0 0 0 0 ]
-2022/11/17-11:58:19.003 603c Delete type=2 #8
-2022/11/17-11:58:19.003 603c Delete type=2 #10
+2022/11/22-22:35:52.461 8fcc Reusing MANIFEST C:\Users\pedro\OneDrive\Área de Trabalho\HellpSeller\Bot\helpsellerBot\.wwebjs_auth\session-bot-zdg\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/11/22-22:35:52.462 8fcc Recovering log #81
+2022/11/22-22:35:52.575 8fcc Reusing old log C:\Users\pedro\OneDrive\Área de Trabalho\HellpSeller\Bot\helpsellerBot\.wwebjs_auth\session-bot-zdg\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000081.log 
+2022/11/22-22:36:04.086 9014 Level-0 table #87: started
+2022/11/22-22:36:04.106 9014 Level-0 table #87: 1310297 bytes OK
+2022/11/22-22:36:04.107 9014 Delete type=0 #81
+2022/11/22-22:36:04.435 880c Compacting 1@1 + 2@2 files
+2022/11/22-22:36:04.513 880c Generated table #88@1: 29088 keys, 2254267 bytes
+2022/11/22-22:36:04.585 880c Generated table #89@1: 54807 keys, 2245494 bytes
+2022/11/22-22:36:04.592 880c Generated table #90@1: 6893 keys, 127268 bytes
+2022/11/22-22:36:04.592 880c Compacted 1@1 + 2@2 files => 4627029 bytes
+2022/11/22-22:36:04.593 880c compacted to: files[ 0 0 3 0 0 0 0 ]
