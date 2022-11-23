@@ -260,26 +260,26 @@ client.on('message', async msg => {
   //   client.sendMessage(msg.from, media);
   // } 
   
-  else if(msgReceived === 'Sim, eu sou'){
-    let sections = [{title:'Ótimo! Vamos prosseguir!',rows:[{title:'1 - Gerente de Conta'},{title:'2 - Criativo'},{title:'3 - Desenvolvimento'},{title:'4 - Financeiro'},{title:'5 - Ouvidoria'}]}];
+  else if(msgReceived === 'Sim'){
+    let sections = [{title:'Ótimo! Vamos prosseguir!',rows:[{title:'1 - Gerente de Conta'},{title:'2 - Criativo'},{title:'3 - Desenvolvimento'},{title:'4 - Financeiro'},{title:'5 - Ouvidoria'},{title:'6 - Falar com Atendente'}]}];
     let list = new List('Selecione a opção desejada:','Opções',sections,'Ótimo! Vamos prosseguir!','Roda-pé da Lista');
     //let button2 = new Buttons('*Selecione a opção desejada:*  \r\n ',[{body:'1 - Gerente de Conta'},{body:'2 - Criativo'},{body:'3 - Desenvolvimento'},{body:'4 - Financeiro'},{body:'5 - Ouvidoria'}],'Ótimo! Vamos prosseguir!', 'Por favor use os botões para nevegar conosco!');
     client.sendMessage(msg.from, list);
     previousMessage = "start-sim";
-  }else if(msgReceived === "1 - Gerente de Conta"){
-    let feedback = "Perfeito "+ msgSender.pushname +", acesse o link www.helpseller.com.br/customersuccess  e agende um horário com o seu Gerente de Conta ou envie a sua solicitação através do email cs@helpseller.com.br";
+  }else if(msgReceived === "1 - Gerente de Contas"){
+    let feedback = "Perfeito "+ msgSender.pushname +", acesse o link *_www.helpseller.com.br/agenda/gabriel_*    e agende um horário com o seu Gerente de Conta ou envie a sua solicitação através do email *cs@helpseller.com.br*";
     previousMessage = "start-sim-1";
     client.sendMessage(msg.from, feedback);
     
   }else if(msgReceived === "2 - Criativo"){
     //msgSender.pushname
-    let feedback = msgSender.pushname +", acesse o link www.helpseller.com.br/criativo e agende um horário com um de nossos especialistas ou envie a sua solicitação através do email criativo@helpseller.app.br";
+    let feedback = msgSender.pushname +", acesse o link *_www.helpseller.com.br/agenda/daniel_* e agende um horário com um de nossos especialistas ou envie a sua solicitação através do email *criativo@helpseller.app.br*";
     previousMessage = "start-sim-2";
     client.sendMessage(msg.from, feedback);
     
   }else if(msgReceived === "3 - Desenvolvimento"){
     //msgSender.pushname
-    let feedback = msgSender.pushname +", nossos chamados referentes a desenvolvimentos de API’s, Plataformas Web, Lojas Virtuais e Landing Pages são tratados apenas através do email desenvolvimento@helpseller.app.br";
+    let feedback = msgSender.pushname +", nossos chamados referentes a desenvolvimentos de API’s, Plataformas Web, Lojas Virtuais e Landing Pages são tratados apenas através do email *desenvolvimento@helpseller.app.br*";
     previousMessage = "start-sim-3";
     client.sendMessage(msg.from, feedback);
     
@@ -291,9 +291,14 @@ client.on('message', async msg => {
     
   }else if(msgReceived === "5 - Ouvidoria"){
     //msgSender.pushname
-    let feedback = "Ótimo " +msgSender.pushname +", gostaríamos de entender melhor o que houver, deixe sua mensagem e entraremos em contato em até 24hrs.";
+    let feedback = "Ótimo *" +msgSender.pushname +"*, gostaríamos de entender melhor o que houver, deixe sua mensagem e entraremos em contato em até 24hrs.";
     previousMessage = "start-sim-5";
     client.sendMessage(msg.from, feedback);
+    const contact = await msg.getContact();//https://api.whatsapp.com/send/?phone=5533988256522&text=
+    client.sendMessage('553135688303@c.us', 'Contato WhatsApp Bot. https://wa.me/' + `${contact.number}` + '?text=O cliente: *'+`${msgSender.pushname}`+'*, entrou em contato contigo e selecionou a opção de ouvidoria.');
+    client.sendMessage('5533988256522@c.us', 'Contato WhatsApp Bot. https://wa.me/' + `${contact.number}`+  '?text=O cliente: *'+`${msgSender.pushname}`+'*, entrou em contato contigo e selecionou a opção de ouvidoria.');
+    //let feedback = "O processo de implantação do seu ecommerce começa com uma apresentação da sua empresa, quais produtos gostaria de começar a vender.. \r\n Em seguida analizamos os requisitos e montamos uma carta proposta para você, caso seja aprovada, ja damos início na construção do seu website. Quaisquer outras dúvidas entre em contato: "
+    //client.sendMessage(msg.from, feedback);
     
   }else if(msgReceived === "Site" || msgReceived === "site" || msgReceived === "SITE"){
     //msgSender.pushname
@@ -301,14 +306,25 @@ client.on('message', async msg => {
     previousMessage = "site";
     client.sendMessage(msg.from, feedback);
     
-  }else if(msgReceived === "Não, ainda não"){
-    let feedback = "Agende um horário com um de nossos consultores ou digite *SITE* para acessar ao site.";
+  }else if(msgReceived === "Não"){
+    let feedback = "Agende um horário com um de nossos especialistas através do link *_www.helpseller.com.br/agenda/bruno_* ou digite *SITE* para acessar ao site.";
     previousMessage = "start-nao";
     client.sendMessage(msg.from, feedback);
     
+  }else if(msgReceived === "6 - Falar com Atendente"){
+    //msgSender.pushname
+    let feedback = "Ótimo *" +msgSender.pushname +"*, gostaríamos de entender melhor o que houver, deixe sua mensagem e entraremos em contato em até 24hrs.";
+    previousMessage = "start-sim-5";
+    client.sendMessage(msg.from, feedback);
+    const contact = await msg.getContact();//https://api.whatsapp.com/send/?phone=5533988256522&text=
+    client.sendMessage('553135688303@c.us', 'Contato WhatsApp Bot. https://wa.me/' + `${contact.number}` + '?text=O cliente: *'+`${msgSender.pushname}`+'*, entrou em contato contigo e selecionou a opção de ouvidoria.');
+    client.sendMessage('5533988256522@c.us', 'Contato WhatsApp Bot. https://wa.me/' + `${contact.number}`+  '?text=O cliente: *'+`${msgSender.pushname}`+'*, entrou em contato contigo e selecionou a opção de ouvidoria.');
+    //let feedback = "O processo de implantação do seu ecommerce começa com uma apresentação da sua empresa, quais produtos gostaria de começar a vender.. \r\n Em seguida analizamos os requisitos e montamos uma carta proposta para você, caso seja aprovada, ja damos início na construção do seu website. Quaisquer outras dúvidas entre em contato: "
+    //client.sendMessage(msg.from, feedback);
+    
   }else{
-    msg.reply("Olá "+ msgSender.pushname +"! Tudo bem? Meu nome é HelpABit e irei te atender! 🤖" );
-    let button = new Buttons('*Já é nosso cliente?*',[{body:'Sim, eu sou'},{body:'Não, ainda não'}],'Iniciando seu atendimento!', 'Por favor use os botões para nevegar conosco!');
+    msg.reply("Olá *"+ msgSender.pushname +"*! Tudo bem? Meu nome é *HelpABit* e irei te atender! 🤖" );
+    let button = new Buttons('*Já é nosso cliente?*',[{body:'Sim'},{body:'Não'}],'Iniciando seu atendimento!', 'Por favor use os botões para nevegar conosco!');
       previousMessage = "start";
       client.sendMessage(msg.from, button);
       

@@ -1,2 +1,3 @@
-2022/11/22-19:32:27.587 1ea4 Creating DB C:\Users\pedro\OneDrive\Área de Trabalho\HellpSeller\Bot\helpsellerBot\.wwebjs_auth\session\Default\Local Storage\leveldb since it was missing.
-2022/11/22-19:32:27.592 1ea4 Reusing MANIFEST C:\Users\pedro\OneDrive\Área de Trabalho\HellpSeller\Bot\helpsellerBot\.wwebjs_auth\session\Default\Local Storage\leveldb/MANIFEST-000001
+2022/11/23-00:01:05.359 66d4 Reusing MANIFEST C:\Users\pedro\OneDrive\Área de Trabalho\HellpSeller\Bot\helpsellerBot\.wwebjs_auth\session\Default\Local Storage\leveldb/MANIFEST-000001
+2022/11/23-00:01:05.364 66d4 Recovering log #3
+2022/11/23-00:01:05.365 66d4 Reusing old log C:\Users\pedro\OneDrive\Área de Trabalho\HellpSeller\Bot\helpsellerBot\.wwebjs_auth\session\Default\Local Storage\leveldb/000003.log 

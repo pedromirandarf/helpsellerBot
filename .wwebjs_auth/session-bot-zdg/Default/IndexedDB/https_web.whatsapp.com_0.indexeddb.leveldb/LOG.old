@@ -1,12 +1,16 @@
-2022/11/22-22:35:52.461 8fcc Reusing MANIFEST C:\Users\pedro\OneDrive\Área de Trabalho\HellpSeller\Bot\helpsellerBot\.wwebjs_auth\session-bot-zdg\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/11/22-22:35:52.462 8fcc Recovering log #81
-2022/11/22-22:35:52.575 8fcc Reusing old log C:\Users\pedro\OneDrive\Área de Trabalho\HellpSeller\Bot\helpsellerBot\.wwebjs_auth\session-bot-zdg\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000081.log 
-2022/11/22-22:36:04.086 9014 Level-0 table #87: started
-2022/11/22-22:36:04.106 9014 Level-0 table #87: 1310297 bytes OK
-2022/11/22-22:36:04.107 9014 Delete type=0 #81
-2022/11/22-22:36:04.435 880c Compacting 1@1 + 2@2 files
-2022/11/22-22:36:04.513 880c Generated table #88@1: 29088 keys, 2254267 bytes
-2022/11/22-22:36:04.585 880c Generated table #89@1: 54807 keys, 2245494 bytes
-2022/11/22-22:36:04.592 880c Generated table #90@1: 6893 keys, 127268 bytes
-2022/11/22-22:36:04.592 880c Compacted 1@1 + 2@2 files => 4627029 bytes
-2022/11/22-22:36:04.593 880c compacted to: files[ 0 0 3 0 0 0 0 ]
+2022/11/23-00:08:03.263 79c4 Reusing MANIFEST C:\Users\pedro\OneDrive\Área de Trabalho\HellpSeller\Bot\helpsellerBot\.wwebjs_auth\session-bot-zdg\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/11/23-00:08:03.263 79c4 Recovering log #86
+2022/11/23-00:08:03.376 79c4 Reusing old log C:\Users\pedro\OneDrive\Área de Trabalho\HellpSeller\Bot\helpsellerBot\.wwebjs_auth\session-bot-zdg\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000086.log 
+2022/11/23-00:08:17.782 7680 Level-0 table #93: started
+2022/11/23-00:08:17.810 7680 Level-0 table #93: 1285196 bytes OK
+2022/11/23-00:08:17.812 7680 Delete type=0 #86
+2022/11/23-00:08:26.356 3724 Compacting 1@1 + 3@2 files
+2022/11/23-00:08:26.421 3724 Generated table #94@1: 29395 keys, 2252137 bytes
+2022/11/23-00:08:26.475 3724 Generated table #95@1: 44060 keys, 2241486 bytes
+2022/11/23-00:08:26.496 3724 Generated table #96@1: 22370 keys, 416319 bytes
+2022/11/23-00:08:26.496 3724 Compacted 1@1 + 3@2 files => 4909942 bytes
+2022/11/23-00:08:26.496 3724 compacted to: files[ 0 0 3 0 0 0 0 ]
+2022/11/23-00:08:26.497 3724 Delete type=2 #88
+2022/11/23-00:08:26.497 3724 Delete type=2 #89
+2022/11/23-00:08:26.497 3724 Delete type=2 #90
+2022/11/23-00:08:26.497 3724 Delete type=2 #93
